@@ -12,7 +12,7 @@ class Solution(object):
 
         for i in range(length_nums):
             if nums[i] == target:
-                return i  # Found the target, return its index
+                return i 
             elif nums[i] > target:
                 size.append(nums[i])
                 length = len(size)
